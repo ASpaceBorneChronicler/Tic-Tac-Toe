@@ -79,8 +79,9 @@ def tic_tac_toe():
                 break
             player = "X"
 
-    print(tic_table)
-    print("Draw")
+        if len(x_plays) + len(l_plays) == 9:
+            print(tic_table)
+            print("Draw")
         
 
 while True:
